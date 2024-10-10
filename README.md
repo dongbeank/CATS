@@ -10,7 +10,7 @@
 
 CATS removes self-attention and retains only cross-attention in its transformer architecture. This design choice aims to better preserve temporal information in time series forecasting, addressing the potential loss of such information during the embedding process in traditional transformer models.
 
-#### ⚡ Time and Memory Effieciency
+#### ⚡ Time and Memory Efficiency
 
 CATS achieves improved time and memory efficiency compared to traditional self-attention-based transformers. While self-attention complexity grows quadratically with input length $$(O(L^2))$$, CATS' cross-attention-only approach scales linearly $$(O(LT))$$.
 
@@ -82,11 +82,11 @@ To replicate the experiments in our [paper](https://arxiv.org/abs/2405.16877), f
 ### Scripts
 We provide various scripts for different datasets and input lengths. Here are a couple of examples:
 
-1. For ETTm1 dataset with 512 input length:
+1. For the ETTm1 dataset with 512 input length:
 ```bash
 bash ./scripts/ETTm1_512_input.sh
 ```
-2. Specifically, for Traffic dataset with large input (2880):
+2. Specifically, for the Traffic dataset with large input (2880):
 ```bash
 bash ./scripts/Traffic_2880_Large_input.sh
 ```
