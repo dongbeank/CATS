@@ -16,10 +16,10 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.2 \
   --lradj TST \
-  --batch_size 32 \
+  --batch_size 8 \
   --train_epochs 100 \
   --patience 20 \
   --query_independence \
@@ -41,10 +41,10 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.3 \
   --lradj TST \
-  --batch_size 32 \
+  --batch_size 8 \
   --train_epochs 100 \
   --patience 20 \
   --query_independence \
@@ -66,10 +66,10 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.5 \
   --lradj TST \
-  --batch_size 32 \
+  --batch_size 8 \
   --train_epochs 100 \
   --patience 20 \
   --query_independence \
@@ -91,10 +91,10 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.7 \
   --lradj TST \
-  --batch_size 32 \
+  --batch_size 8 \
   --train_epochs 100 \
   --patience 20 \
   --query_independence \
