@@ -18,7 +18,7 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.2 \
   --learning_rate 0.01 \
   --batch_size 32 \
@@ -40,7 +40,7 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.3 \
   --learning_rate 0.01 \
   --batch_size 32 \
@@ -62,7 +62,7 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.5 \
   --learning_rate 0.01 \
   --batch_size 32 \
@@ -84,7 +84,7 @@ python -u run.py \
   --itr 1 \
   --d_model 128 \
   --d_ff 256 \
-  --n_heads 16 \
+  --n_heads 8 \
   --QAM_end 0.7 \
   --learning_rate 0.01 \
   --batch_size 32 \
