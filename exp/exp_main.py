@@ -299,9 +299,9 @@ class Exp_Main(Exp_Basic):
         trues = np.concatenate(trues, axis=0)
         inputx = np.concatenate(inputx, axis=0)
         
-        preds=test_data.inverse_transform(preds.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
-        trues=test_data.inverse_transform(trues.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
-        inputx=test_data.inverse_transform(inputx.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
+        preds=pred_data.inverse_transform(preds.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
+        trues=pred_data.inverse_transform(trues.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
+        inputx=pred_data.inverse_transform(inputx.reshape(-1, self.args.dec_in)).reshape(-1,self.args.pred_len, self.args.dec_in)
 
         # result save
         folder_path = './results/' + setting + '/'
